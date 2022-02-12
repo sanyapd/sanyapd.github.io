@@ -1,0 +1,21 @@
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gridcontainer {
+    display: grid;
+    height: 700px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100px 1fr 100px;
+    gap: 10px;
+}
+.card1 {
+    background: red;
+}
+.card2 {
+    background: rgb(0, 109, 128);
+}
+.card3 {
+    background: rgb(92, 0, 128);
+}

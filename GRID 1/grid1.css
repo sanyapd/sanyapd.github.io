@@ -1,0 +1,21 @@
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;  
+    }
+
+    .gridcontainer {
+        display: grid;
+        height: 700px;
+        grid-template-rows: 100px 600px;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .card1 {
+        background: coral
+    }
+
+    .card2 {
+        background: rgb(30, 209, 60)
+    }
